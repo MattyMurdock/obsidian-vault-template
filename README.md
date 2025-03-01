@@ -7,3 +7,5 @@ Primero les explicare un poco la estructura, puesto que se usa una estructura de
 Esta boveda esta pensada para aquellas personas que no tienen el tiempo de configurar su obsidian y quieren tener automatizado algunas cosas, obsidian por si solo funciona muy bien pero con los plugins de la comunidad y con un poco de personalizacion puede ser una maravilla.
 
 # Generalidades
+1. Ayuda sobre la carpeta [[settings_help|settings]]
+2. 
