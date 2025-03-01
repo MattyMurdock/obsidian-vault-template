@@ -8,4 +8,25 @@ Esta boveda esta pensada para aquellas personas que no tienen el tiempo de confi
 
 # Generalidades
 1. Ayuda sobre la carpeta [[settings_help|settings]]
-2. 
+2. Ayuda sobre la carpeta [[plantillas_help|Plantillas]]
+
+
+# Plugins usados en este Vault 
+Lista de plugins que se necesitan para poder tener el correcto funcionamiento del Vault y su configuracion automatizada.
+1. Beautitab
+2. cMenu
+3. Colored Tags Wrangler
+4. Commander
+5. Custom Frames
+6. Dataview
+7. ePub Reader
+8. Excalidraw
+9. Footnote Shortcut
+10. Homepage
+11. MySnippets
+12. Periodic Notes
+13. Pomodoro Timer
+14. Quick Switcher ++
+15. QuickAdd
+16. Style Settings
+17. Tasks
