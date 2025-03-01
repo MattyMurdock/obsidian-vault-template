@@ -1,0 +1,10 @@
+# Lista de plantillas para el funcionamiento del Plugin QuickAdd
+1. Investigacion (para hacer notas de investigacion)
+2. Proyecto (Para gestionar tus proyectos junto a sus tareas relacionadas)
+3. Cornell (plantilla para estudiantes y para poder hacer notas en clase)
+4. Libro (si te gusta la lectura esto servira para llevar el control de tus libros)
+5. Lecturas (Para hacer notas de los libros que lees)
+6. Journal (sirve para poder hacer notas diarias *importante para la gestion de tareas diarias*)
+7. Semana (Sirve para llevar notas semanales *para las tareas semanales y objetivos*)
+8. sub_proyecto (PLantilla para la gestion de proyectos)
+9. YoutubeVideoEmbed (para agregar videos a las notas)
