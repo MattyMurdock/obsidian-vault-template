@@ -1,0 +1,62 @@
+/*
+    clean-embeds.css snippet
+    Removes title, link, padding, margins from embeds,
+    so they really look like the same note.
+    To be used with `cssclass: clean-embeds` in YAML frontmatter.
+    2024-08-16 Oswaldo Lázaro Flores
+    TODO: MOdificado porque no servia y ahora si sirve culero
+*/
+
+.clean-embeds {
+    --embed-background: inherit;
+    --embed-border-left: none;
+    --embed-border-right: none;
+    --embed-border-top: none;
+    --embed-border-bottom: none;
+    --embed-padding: 0;
+    --embed-font-style: inherit;
+}
+
+.clean-embeds .markdown-rendered .markdown-embed {
+    max-width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: inherit;
+    box-shadow: none; /* Elimina cualquier sombra que pudiera causar la barra */
+}
+
+.clean-embeds .markdown-rendered .markdown-embed .markdown-rendered {
+    padding-left: 0;
+    margin-left: 0;
+    background: inherit;
+    border: none;
+    box-shadow: none;
+}
+
+.clean-embeds .markdown-embed-link {
+    visibility: hidden;
+}
+
+.clean-title .markdown-embed-title {
+    display: none;
+}
+
+/* Elimina márgenes y bordes en modo lectura */
+.clean-embeds .markdown-embed-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: inherit !important;
+    box-shadow: none !important; /* Fuerza a que no haya sombra */
+}
+
+/* Elimina cualquier borde o sombra en la envoltura del embed */
+.clean-embeds .markdown-embed {
+    border: none !important;
+    box-shadow: none !important;
+    background: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+

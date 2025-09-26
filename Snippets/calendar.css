@@ -1,0 +1,65 @@
+/*====================*/
+/* Plugin - Calendar */
+/*==================*/
+
+/* CSS by the theme Blue Topaz (https://github.com/whyt-byte/Blue-Topaz_Obsidian-css)*/
+
+#calendar-container {
+    --color-background-heading: transparent;
+    --color-background-weeknum: transparent;
+    --color-background-day: transparent;
+    --color-background-weekend: transparent;
+    
+    --color-dot: var(--text-accent);
+    --color-arrow: currentColor;
+    --color-button: var(--text-muted);
+    --color-text-weeknum: var(--calendar-week-color);
+    
+    --color-text-title: var(--text-normal);
+    --color-text-heading: var(--text-normal);
+    --color-text-day: var(--text-normal);
+    --color-text-today: var(--text-accent);
+/* 
+    padding: 0px 0px 0px 0px;
+    margin: -25px -10px 0px -9px;
+    line-height: 1;
+    border-radius: 5px !important;
+*/
+}
+
+/*
+Para ponerle colores a los dias---------------------------------------------------------
+author: sailKite
+source: https://discord.com/channels/686053708261228577/702656734631821413/1168178314318458980
+*/
+
+
+.container#calendar-container .calendar {
+  & > thead > tr:first-of-type {
+    & > th:nth-child(1) {
+      color: red;
+    }
+    & > th:nth-child(2) {
+      color: orange;
+    }
+    & > th:nth-child(3) {
+      color: yellow;
+    }
+    & > th:nth-child(4) {
+      color: greenyellow;
+    }
+    & > th:nth-child(5) {
+      color: blue;
+    }
+    & > th:nth-child(6) {
+      color: blueviolet;
+    }
+    & > th:nth-child(7) {
+      color: violet;
+    }& > th:nth-child(8) {
+      color: palevioletred;
+    }
+  }
+}
+
+

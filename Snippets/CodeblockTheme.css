@@ -1,0 +1,104 @@
+
+body {
+    /* Dracula */
+    
+    --code-background-light: #282A36 !important;
+    --code-background-dark: #282A36 !important;
+    --code-border-light: none;
+    --code-border-dark: none;
+    --code-normal: #f8f8f2 !important;
+    --code-comment: #6272a4 !important;
+    --code-function: #f1fa8c !important;
+    --code-important: #ffb86c !important;
+    --code-keyword: #ff79c6 !important;
+    --code-operator: #ff5555 !important;
+    --code-property: #8be9fd !important;
+    --code-punctuation: #f8f8f2 !important;
+    --code-string: #50fa7b !important;
+    --code-tag: #ff5555 !important;
+    --code-value: #bd93f9 !important; 
+
+    /* Solarized Dark */
+    /*
+    --code-background-light: #002b36;
+    --code-background-dark: #002b36;
+    --code-border-light: none;
+    --code-border-dark: none;
+    --code-normal: #839496;
+    --code-comment: #586e75;
+    --code-function: #b58900;
+    --code-important: #cb4b16;
+    --code-keyword: #d33682;
+    --code-operator: #dc322f;
+    --code-property: #2aa198;
+    --code-punctuation: #839496;
+    --code-string: #859900;
+    --code-tag: #dc322f;
+    --code-value: #6c71c4;
+    */
+
+    /*One Dark Pro*/
+    /* 
+    --code-background-light: #282C34;
+    --code-background-dark: #282C34;
+    --code-border-light: none;
+    --code-border-dark: none;
+    --code-normal: #ABB2BF;
+    --code-comment: #5C6370;
+    --code-function: #E5C07B;
+    --code-important: #D19A66;
+    --code-keyword: #E06C75;
+    --code-operator: #BE5046;
+    --code-property: #56B6C2;
+    --code-punctuation: #ABB2BF;
+    --code-string: #98C379;
+    --code-tag: #BE5046;
+    --code-value: #C678DD;
+    */
+
+}
+
+.theme-light {
+    --code-background: var(--code-background-light);
+    --code-border: var(--code-border-light);
+}
+
+.theme-dark {
+    --code-background: var(--code-background-dark);
+    --code-border: var(--code-border-dark);
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg,
+.cm-s-obsidian div.HyperMD-codeblock-end-bg,
+.cm-s-obsidian div.HyperMD-codeblock-bg,
+.markdown-rendered pre {
+    background: var(--code-background);
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+    border-top: var(--code-border);
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+    border-bottom: var(--code-border);
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+    border-left: var(--code-border);
+    border-right: var(--code-border);
+}
+
+.markdown-rendered pre {
+    border: var(--code-border);
+}
+
+.cm-s-obsidian .HyperMD-codeblock {
+    caret-color: auto;
+}
+
+.css-settings-manager:not(.codeblock-style-customize) .cm-s-obsidian .HyperMD-codeblock ::selection,
+.css-settings-manager:not(.codeblock-style-customize) .markdown-rendered pre ::selection,
+.css-settings-manager:not(.codeblock-style-customize) .markdown-source-view.mod-cm6 .code-block-flair:hover,
+.css-settings-manager:not(.codeblock-style-customize) .markdown-rendered button.copy-code-button:hover {
+    background-color: hsl(from var(--code-normal) h s l / 20%);
+}

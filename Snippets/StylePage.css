@@ -1,0 +1,18 @@
+/* Un separador de paginas mamalon  */
+
+.markdown-rendered hr::before,
+.markdown-source-view hr::before {
+    font-size: 1.5em;
+    content: '🪶 📖 🪶';
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
+    padding: 0.35rem;
+    color: var(--accent-color);
+    background-color: var(--background-primary);
+    z-index: 1;
+
+}
