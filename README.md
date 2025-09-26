@@ -9,6 +9,7 @@ Esta boveda esta pensada para aquellas personas que no tienen el tiempo de confi
 # Generalidades
 1. Ayuda sobre la carpeta [[settings_help|settings]]
 2. Ayuda sobre la carpeta [[plantillas_help|Plantillas]]
+3. Ayuda sobre la carpeta [[snippets_help|Snippets]]
 
 
 # Plugins usados en este Vault 
