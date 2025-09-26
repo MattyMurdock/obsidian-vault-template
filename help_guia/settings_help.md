@@ -32,3 +32,7 @@ Que estan se pueden agregar en funcion de su tipo personalizado, en este tenemos
 - Lecturas
 - Pendientes Proyectos
 - Canceladas
+
+## ¿Qué hace el archivo home?
+En este archivo tenemos un compilado de información dentro del vault, es decir, podemos hacer una pagina principal que nos permite revisar de manera breve lo que tenemos en nuetro vault.
+
