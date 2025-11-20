@@ -1,4 +1,4 @@
-# Vault Lázaro Version 1.0
+# Vault Version 1.0
 
 Aqui se va integrar una plantilla de como tener un vault a la forma de lázaro de alguna forma para que puedan saber tambien como usar diferentes plugins que se usan en este vault.
 
