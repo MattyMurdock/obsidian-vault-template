@@ -1,4 +1,4 @@
-# Vault Lázaro Version 1.0
+# Vault Version 1.0
 
 Se integra una estructura de carpetas plantilla, que permite tener un vault a la forma de "Lázaro", esto de ayuda para cualquiera que este método le funcione o quiera aprender a usar Obsidian.
 
