@@ -1,3 +1,7 @@
+/*
+Comand Pallet sirve para tene una animacion del color de acento elegido en Obsidian
+*/
+
 .prompt {
   border: solid var(--text-accent);
   opacity: 0.9;

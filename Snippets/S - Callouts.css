@@ -1,3 +1,7 @@
+/*
+Snippet para poder darle un estilo diferente a los callouts
+*/
+
 @charset "UTF-8";
 /*Callout Positioning*/
 :not(.is-live-preview) .callout.callout.callout:is([data-callout-metadata~="p+l"],
