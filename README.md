@@ -37,3 +37,4 @@ Lista de plugins que se necesitan para poder tener el correcto funcionamiento de
 2. ITS Theme
 3. Material Gruvbox
 4. WY Console
+5. Catpuccin
